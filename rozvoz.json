@@ -1,0 +1,188 @@
+{
+  "features":[
+ {
+   "nazev": "Pivotéka Bez příběhu",
+   "adresa": "Svatojánská 577, Telč",
+   "kraj": "Kraj Vysočina",
+   "lat": 49.1799281,
+   "lon": 15.4478711,
+   "url": "https://pivoteka.bezpribehu.cz"
+ },
+ {
+   "nazev": "Pivotéka Hořský svět",
+   "adresa": "Vaňkovo náměstí 275/6, Třebíč",
+   "kraj": "Kraj Vysočina",
+   "lat": 49.2100883,
+   "lon": 15.8842614,
+   "url": "https://www.facebook.com/PivotekaHorkySvet/"
+ },
+ {
+   "nazev": "pivotekaB.cz",
+   "adresa": "Špindlerova 2472, Roudnice nad Labem",
+   "kraj": "Ústecký kraj",
+   "lat": 50.4213064,
+   "lon": 14.2532056,
+   "url": "https://pivotekab.cz"
+ },
+ {
+   "nazev": "OD MAX",
+   "adresa": "Červené vršky 2086, Benešov",
+   "kraj": "Středočeský kraj",
+   "lat": 49.7872897,
+   "lon": 14.6845731,
+   "url": "https://odmax.cz"
+ },
+ {
+   "nazev": "BEERSHOP.CZ",
+   "adresa": "Sokolovská 188, Praha 8 - Palmovka",
+   "kraj": "Praha 8",
+   "lat": 50.1025231,
+   "lon": 14.4767917,
+   "url": "https://www.beershop.cz"
+ },
+ {
+   "nazev": "Pivotéka OC DBK",
+   "adresa": "OC DBK, Budějovická 1667/64, Praha 4",
+   "kraj": "Praha 4",
+   "lat": 50.0438919,
+   "lon": 14.4493075,
+   "url": "https://www.dbkpraha.cz/restaurace/detail/49/pivoteka"
+ },
+ {
+   "nazev": "Pivkupectví",
+   "adresa": "Čestmírova 5, Praha 4",
+   "kraj": "Praha 4",
+   "lat": 50.0642669,
+   "lon": 14.4420317,
+   "url": "https://www.pivkupectvi.cz"
+ },
+ {
+   "nazev": "Pivotéka ŽižkOff",
+   "adresa": "Miličova 6, Praha 3 - Žižkov",
+   "kraj": "Praha 3",
+   "lat": 50.0847583,
+   "lon": 14.4510819,
+   "url": "https://www.facebook.com/PivotekaZizkOFF"
+ },
+ {
+   "nazev": "Pivotéka Pivní rozmanitost",
+   "adresa": "Koněvova 1819/133, Praha 3",
+   "kraj": "Praha 3",
+   "lat": 50.0915331,
+   "lon": 14.4736958,
+   "url": "http://www.piro-pivnirozmanitost.cz/?fbclid=IwAR00MJ0iWtcX4YBZBQc9jbjrQ8ZkeJHf40urJXzyoARLPdZvwNd8GUm8me4"
+ },
+ {
+   "nazev": "Pivní zastávka",
+   "adresa": "Kodaňská 32, Praha 10 - Vršovice",
+   "kraj": "Praha 10",
+   "lat": 50.0704953,
+   "lon": 14.4600261,
+   "url": "https://pivnizastavka.cz"
+ },
+ {
+   "nazev": "The BEER STOP pod Petřínem",
+   "adresa": "Vítězná 14, Praha 1",
+   "kraj": "Praha 1",
+   "lat": 50.0812956,
+   "lon": 14.4055069,
+   "url": "https://www.facebook.com/TheBeerStopPodPetrinem/"
+ },
+ {
+   "nazev": "Prodejna piva u Černýcha",
+   "adresa": "Kaškova 659, Praha - Zbraslav",
+   "kraj": "Praha - Zbraslav",
+   "lat": 49.9726108,
+   "lon": 14.3933386,
+   "url": "https://www.facebook.com/prodejnapivaucernych/"
+ },
+ {
+   "nazev": "Pivotéka Plzeň - Brewhemian Beer Shop",
+   "adresa": "Bezručova 29, Plzeň",
+   "kraj": "Plzeňský kraj",
+   "lat": 49.7456639,
+   "lon": 13.3745844,
+   "url": "https://www.brewhemian.eu/cs"
+ },
+ {
+   "nazev": "Pivní prodejna Pod Zelenou Horou",
+   "adresa": "Vrčeň 104, 335 41 Vršeň",
+   "kraj": "Plzeňský kraj",
+   "lat": 49.5060003,
+   "lon": 13.6161106,
+   "url": "https://prodejna.pivni.info"
+ },
+ {
+   "nazev": "Restaurace Pivotečka",
+   "adresa": "Rooseveltova 76/4, Plzeň",
+   "kraj": "Plzeňský kraj",
+   "lat": 49.74831,
+   "lon": 13.3790203,
+   "url": "https://www.pivotecka.cz"
+ },
+ {
+   "nazev": "Pivotéka.cz",
+   "adresa": "Dolní Novosadská 46/48, Olomouc",
+   "kraj": "Olomoucký kraj",
+   "lat": 49.5659917,
+   "lon": 17.2618314,
+   "url": "https://www.pivoteka.cz"
+ },
+ {
+   "nazev": "Alkotéka Ostrava",
+   "adresa": "Porubská 707/16c, Ostrava - Poruba",
+   "kraj": "Moravskoslezský kraj",
+   "lat": 49.8292053,
+   "lon": 18.1734717,
+   "url": "http://alkoteka-ostrava.cz"
+ },
+ {
+   "nazev": "Pivní Hub Ostrava",
+   "adresa": "Nádražní 716/46, Ostrava",
+   "kraj": "Moravskoslezský kraj",
+   "lat": 49.8390906,
+   "lon": 18.2850136,
+   "url": "https://www.pivnihub.cz"
+ },
+ {
+   "nazev": "Alkotéka Havířov",
+   "adresa": "Národní třída 591/14, Havířov",
+   "kraj": "Moravskoslezský kraj",
+   "lat": 49.7775281,
+   "lon": 18.4342369,
+   "url": "https://www.facebook.com/Alkotéka-Hav%C3%ADřov-1888759508018624/"
+ },
+ {
+   "nazev": "Pivní bar U Segala",
+   "adresa": "Gen. Hrušky 1233/26, Ostrava - Fifejdy",
+   "kraj": "Moravskoslezský kraj",
+   "lat": 49.8363381,
+   "lon": 18.2595783,
+   "url": "https://www.usegala.cz"
+ },
+ {
+   "nazev": "Pod ořechem",
+   "adresa": "Petrov č.p. 349, Petrov",
+   "kraj": "Jihomoravský kraj",
+   "lat": 48.8795328,
+   "lon": 17.2741092,
+   "url": "https://www.pod-orechem.cz"
+ },
+ {
+   "nazev": "Obchod Svět-piva.cz",
+   "adresa": "Stránského 28, Brno - Žabovřesky",
+   "kraj": "Jihomoravský kraj",
+   "lat": 49.2127694,
+   "lon": 16.5681103,
+   "url": "https://obchod.svet-piva.cz"
+ },
+ {
+   "nazev": "Pivotéka U Martina",
+   "adresa": "Hybešova 256/18, Brno",
+   "kraj": "Jihomoravský kraj",
+   "lat": 49.1892789,
+   "lon": 16.6046025,
+   "url": "https://www.facebook.com/PivotekaUMartina/"
+ }
+]
+}

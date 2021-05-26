@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ab1af015c5094408bfb4981641d67f3e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ab1af015c5094408bfb4981641d67f3e" ></div>
+        
+</body>
+<script>    
+    
+            var map_ab1af015c5094408bfb4981641d67f3e = L.map(
+                "map_ab1af015c5094408bfb4981641d67f3e",
+                {
+                    center: [49.8323483, 15.6985767],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f31a0f2b325847e6aae9648b8d471823 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ab1af015c5094408bfb4981641d67f3e);
+        
+    
+            var marker_cluster_b9d36cca3a404e4c8b4b781026f77552 = L.markerClusterGroup(
+                {}
+            );
+            map_ab1af015c5094408bfb4981641d67f3e.addLayer(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var marker_18d82396e2df44c88014b07c8d9d1d14 = L.marker(
+                [49.1799281, 15.4478711],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_03545da2cdfd4c8381fe8f10747b4ba9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_18d82396e2df44c88014b07c8d9d1d14.setIcon(icon_03545da2cdfd4c8381fe8f10747b4ba9);
+        
+    
+        var popup_ed3d19333c64429e8ba147d79cb4764a = L.popup({"maxWidth": 2650});
+
+        
+            var html_ddc83b6561a341f28e94b21db749a191 = $(`<div id="html_ddc83b6561a341f28e94b21db749a191" style="width: 100.0%; height: 100.0%;"><b>Pivotéka Bez příběhu</b><br>                     Svatojánská 577, Telč<br>                     Kraj Vysočina<br>                     <a href="https://pivoteka.bezpribehu.cz">https://pivoteka.bezpribehu.cz</a> </div>`)[0];
+            popup_ed3d19333c64429e8ba147d79cb4764a.setContent(html_ddc83b6561a341f28e94b21db749a191);
+        
+
+        marker_18d82396e2df44c88014b07c8d9d1d14.bindPopup(popup_ed3d19333c64429e8ba147d79cb4764a)
+        ;
+
+        
+    
+    
+            marker_18d82396e2df44c88014b07c8d9d1d14.bindTooltip(
+                `<div>
+                     <b>Pivotéka Bez příběhu</b> <br />                Svatojánská 577, Telč<br />                Kraj Vysočina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82ab379801e6473a92e54e31ba99a136 = L.marker(
+                [49.2100883, 15.8842614],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_2d901f818a77449b85b06f7300ed21f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_82ab379801e6473a92e54e31ba99a136.setIcon(icon_2d901f818a77449b85b06f7300ed21f2);
+        
+    
+        var popup_cc7cbbdee7814e2f81c714a4037a80bd = L.popup({"maxWidth": 2650});
+
+        
+            var html_1a140ea01d2c4fa09385b503617e8ca1 = $(`<div id="html_1a140ea01d2c4fa09385b503617e8ca1" style="width: 100.0%; height: 100.0%;"><b>Pivotéka Hořský svět</b><br>                     Vaňkovo náměstí 275/6, Třebíč<br>                     Kraj Vysočina<br>                     <a href="https://www.facebook.com/PivotekaHorkySvet/">https://www.facebook.com/PivotekaHorkySvet/</a> </div>`)[0];
+            popup_cc7cbbdee7814e2f81c714a4037a80bd.setContent(html_1a140ea01d2c4fa09385b503617e8ca1);
+        
+
+        marker_82ab379801e6473a92e54e31ba99a136.bindPopup(popup_cc7cbbdee7814e2f81c714a4037a80bd)
+        ;
+
+        
+    
+    
+            marker_82ab379801e6473a92e54e31ba99a136.bindTooltip(
+                `<div>
+                     <b>Pivotéka Hořský svět</b> <br />                Vaňkovo náměstí 275/6, Třebíč<br />                Kraj Vysočina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe671a75579c438cb00bfebb625b0ef4 = L.marker(
+                [50.4213064, 14.2532056],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_6a57cdfe847c45858667f1fd4dbb6f7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe671a75579c438cb00bfebb625b0ef4.setIcon(icon_6a57cdfe847c45858667f1fd4dbb6f7b);
+        
+    
+        var popup_366a2d873d254bc395114e417da47686 = L.popup({"maxWidth": 2650});
+
+        
+            var html_014b0bc094d54883aebf9f162732147e = $(`<div id="html_014b0bc094d54883aebf9f162732147e" style="width: 100.0%; height: 100.0%;"><b>pivotekaB.cz</b><br>                     Špindlerova 2472, Roudnice nad Labem<br>                     Ústecký kraj<br>                     <a href="https://pivotekab.cz">https://pivotekab.cz</a> </div>`)[0];
+            popup_366a2d873d254bc395114e417da47686.setContent(html_014b0bc094d54883aebf9f162732147e);
+        
+
+        marker_fe671a75579c438cb00bfebb625b0ef4.bindPopup(popup_366a2d873d254bc395114e417da47686)
+        ;
+
+        
+    
+    
+            marker_fe671a75579c438cb00bfebb625b0ef4.bindTooltip(
+                `<div>
+                     <b>pivotekaB.cz</b> <br />                Špindlerova 2472, Roudnice nad Labem<br />                Ústecký kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0304d43838943c69ab4cd6cee3aa60f = L.marker(
+                [49.7872897, 14.6845731],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_4ed69cde83ff4950898cf494bfd34a45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d0304d43838943c69ab4cd6cee3aa60f.setIcon(icon_4ed69cde83ff4950898cf494bfd34a45);
+        
+    
+        var popup_28fe7ff82ee34bf09f108bbb8a6cc4cd = L.popup({"maxWidth": 2650});
+
+        
+            var html_4606a79c227c428096417962e3aa3a61 = $(`<div id="html_4606a79c227c428096417962e3aa3a61" style="width: 100.0%; height: 100.0%;"><b>OD MAX</b><br>                     Červené vršky 2086, Benešov<br>                     Středočeský kraj<br>                     <a href="https://odmax.cz">https://odmax.cz</a> </div>`)[0];
+            popup_28fe7ff82ee34bf09f108bbb8a6cc4cd.setContent(html_4606a79c227c428096417962e3aa3a61);
+        
+
+        marker_d0304d43838943c69ab4cd6cee3aa60f.bindPopup(popup_28fe7ff82ee34bf09f108bbb8a6cc4cd)
+        ;
+
+        
+    
+    
+            marker_d0304d43838943c69ab4cd6cee3aa60f.bindTooltip(
+                `<div>
+                     <b>OD MAX</b> <br />                Červené vršky 2086, Benešov<br />                Středočeský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e21bff81d52a470bbda043ef5d5c296e = L.marker(
+                [50.1025231, 14.4767917],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_4f12d1e5748c4b68bcb897bdc9c954de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e21bff81d52a470bbda043ef5d5c296e.setIcon(icon_4f12d1e5748c4b68bcb897bdc9c954de);
+        
+    
+        var popup_a9213f7e5d3948608bd8a134be5fe231 = L.popup({"maxWidth": 2650});
+
+        
+            var html_5d47e47f0ba142ff88a322068ec3a95c = $(`<div id="html_5d47e47f0ba142ff88a322068ec3a95c" style="width: 100.0%; height: 100.0%;"><b>BEERSHOP.CZ</b><br>                     Sokolovská 188, Praha 8 - Palmovka<br>                     Praha 8<br>                     <a href="https://www.beershop.cz">https://www.beershop.cz</a> </div>`)[0];
+            popup_a9213f7e5d3948608bd8a134be5fe231.setContent(html_5d47e47f0ba142ff88a322068ec3a95c);
+        
+
+        marker_e21bff81d52a470bbda043ef5d5c296e.bindPopup(popup_a9213f7e5d3948608bd8a134be5fe231)
+        ;
+
+        
+    
+    
+            marker_e21bff81d52a470bbda043ef5d5c296e.bindTooltip(
+                `<div>
+                     <b>BEERSHOP.CZ</b> <br />                Sokolovská 188, Praha 8 - Palmovka<br />                Praha 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b166d541b1f1407a824e25988dc9d45f = L.marker(
+                [50.0438919, 14.4493075],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_80b9d834404e4f9bbfca8880df461d79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b166d541b1f1407a824e25988dc9d45f.setIcon(icon_80b9d834404e4f9bbfca8880df461d79);
+        
+    
+        var popup_7fcf0f9d897d457598df676b4bb7430f = L.popup({"maxWidth": 2650});
+
+        
+            var html_5eb8a2beb2354f6699c4d5095caba656 = $(`<div id="html_5eb8a2beb2354f6699c4d5095caba656" style="width: 100.0%; height: 100.0%;"><b>Pivotéka OC DBK</b><br>                     OC DBK, Budějovická 1667/64, Praha 4<br>                     Praha 4<br>                     <a href="https://www.dbkpraha.cz/restaurace/detail/49/pivoteka">https://www.dbkpraha.cz/restaurace/detail/49/pivoteka</a> </div>`)[0];
+            popup_7fcf0f9d897d457598df676b4bb7430f.setContent(html_5eb8a2beb2354f6699c4d5095caba656);
+        
+
+        marker_b166d541b1f1407a824e25988dc9d45f.bindPopup(popup_7fcf0f9d897d457598df676b4bb7430f)
+        ;
+
+        
+    
+    
+            marker_b166d541b1f1407a824e25988dc9d45f.bindTooltip(
+                `<div>
+                     <b>Pivotéka OC DBK</b> <br />                OC DBK, Budějovická 1667/64, Praha 4<br />                Praha 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6495bf4a807b4113b47400eafd78ac1c = L.marker(
+                [50.0642669, 14.4420317],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_b83867dc11f04f2985e80b74e6b185c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6495bf4a807b4113b47400eafd78ac1c.setIcon(icon_b83867dc11f04f2985e80b74e6b185c5);
+        
+    
+        var popup_c76273b1a0064225811a76b9302395f5 = L.popup({"maxWidth": 2650});
+
+        
+            var html_426fffa1d1044e3b901ebeeaa8903b74 = $(`<div id="html_426fffa1d1044e3b901ebeeaa8903b74" style="width: 100.0%; height: 100.0%;"><b>Pivkupectví</b><br>                     Čestmírova 5, Praha 4<br>                     Praha 4<br>                     <a href="https://www.pivkupectvi.cz">https://www.pivkupectvi.cz</a> </div>`)[0];
+            popup_c76273b1a0064225811a76b9302395f5.setContent(html_426fffa1d1044e3b901ebeeaa8903b74);
+        
+
+        marker_6495bf4a807b4113b47400eafd78ac1c.bindPopup(popup_c76273b1a0064225811a76b9302395f5)
+        ;
+
+        
+    
+    
+            marker_6495bf4a807b4113b47400eafd78ac1c.bindTooltip(
+                `<div>
+                     <b>Pivkupectví</b> <br />                Čestmírova 5, Praha 4<br />                Praha 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9a041049fbf4a3e80575f73d6a182fa = L.marker(
+                [50.0847583, 14.4510819],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_8395415ac5334dd89751668892ccae6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a9a041049fbf4a3e80575f73d6a182fa.setIcon(icon_8395415ac5334dd89751668892ccae6c);
+        
+    
+        var popup_d6e772ac843e4c578ba9cc046b0996ef = L.popup({"maxWidth": 2650});
+
+        
+            var html_b4852d46be834eb894cb1e1263fee827 = $(`<div id="html_b4852d46be834eb894cb1e1263fee827" style="width: 100.0%; height: 100.0%;"><b>Pivotéka ŽižkOff</b><br>                     Miličova 6, Praha 3 - Žižkov<br>                     Praha 3<br>                     <a href="https://www.facebook.com/PivotekaZizkOFF">https://www.facebook.com/PivotekaZizkOFF</a> </div>`)[0];
+            popup_d6e772ac843e4c578ba9cc046b0996ef.setContent(html_b4852d46be834eb894cb1e1263fee827);
+        
+
+        marker_a9a041049fbf4a3e80575f73d6a182fa.bindPopup(popup_d6e772ac843e4c578ba9cc046b0996ef)
+        ;
+
+        
+    
+    
+            marker_a9a041049fbf4a3e80575f73d6a182fa.bindTooltip(
+                `<div>
+                     <b>Pivotéka ŽižkOff</b> <br />                Miličova 6, Praha 3 - Žižkov<br />                Praha 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e271ca0da27548cf99aa8d90a6dae193 = L.marker(
+                [50.0915331, 14.4736958],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_6bced50473934193890bb0af38712578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e271ca0da27548cf99aa8d90a6dae193.setIcon(icon_6bced50473934193890bb0af38712578);
+        
+    
+        var popup_e3c5cd991a4e41358f049d01fa867764 = L.popup({"maxWidth": 2650});
+
+        
+            var html_033a6fb8b3c6443b987cded636741bc2 = $(`<div id="html_033a6fb8b3c6443b987cded636741bc2" style="width: 100.0%; height: 100.0%;"><b>Pivotéka Pivní rozmanitost</b><br>                     Koněvova 1819/133, Praha 3<br>                     Praha 3<br>                     <a href="http://www.piro-pivnirozmanitost.cz/?fbclid=IwAR00MJ0iWtcX4YBZBQc9jbjrQ8ZkeJHf40urJXzyoARLPdZvwNd8GUm8me4">http://www.piro-pivnirozmanitost.cz/?fbclid=IwAR00MJ0iWtcX4YBZBQc9jbjrQ8ZkeJHf40urJXzyoARLPdZvwNd8GUm8me4</a> </div>`)[0];
+            popup_e3c5cd991a4e41358f049d01fa867764.setContent(html_033a6fb8b3c6443b987cded636741bc2);
+        
+
+        marker_e271ca0da27548cf99aa8d90a6dae193.bindPopup(popup_e3c5cd991a4e41358f049d01fa867764)
+        ;
+
+        
+    
+    
+            marker_e271ca0da27548cf99aa8d90a6dae193.bindTooltip(
+                `<div>
+                     <b>Pivotéka Pivní rozmanitost</b> <br />                Koněvova 1819/133, Praha 3<br />                Praha 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a3509379e074ceea2aae3ca1c212f68 = L.marker(
+                [50.0704953, 14.4600261],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_9bd19628e50a4339b3e216039e7d5ce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6a3509379e074ceea2aae3ca1c212f68.setIcon(icon_9bd19628e50a4339b3e216039e7d5ce8);
+        
+    
+        var popup_261f170305d944afb3d825e478c48b33 = L.popup({"maxWidth": 2650});
+
+        
+            var html_faf6d5249cbd4972a4ba3fd3ba44ef59 = $(`<div id="html_faf6d5249cbd4972a4ba3fd3ba44ef59" style="width: 100.0%; height: 100.0%;"><b>Pivní zastávka</b><br>                     Kodaňská 32, Praha 10 - Vršovice<br>                     Praha 10<br>                     <a href="https://pivnizastavka.cz">https://pivnizastavka.cz</a> </div>`)[0];
+            popup_261f170305d944afb3d825e478c48b33.setContent(html_faf6d5249cbd4972a4ba3fd3ba44ef59);
+        
+
+        marker_6a3509379e074ceea2aae3ca1c212f68.bindPopup(popup_261f170305d944afb3d825e478c48b33)
+        ;
+
+        
+    
+    
+            marker_6a3509379e074ceea2aae3ca1c212f68.bindTooltip(
+                `<div>
+                     <b>Pivní zastávka</b> <br />                Kodaňská 32, Praha 10 - Vršovice<br />                Praha 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b057f3464286403f968987c250d6808c = L.marker(
+                [50.0812956, 14.4055069],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_2331be7476cb4f04b2dfd3fad52951c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b057f3464286403f968987c250d6808c.setIcon(icon_2331be7476cb4f04b2dfd3fad52951c5);
+        
+    
+        var popup_0a47c2cf981649239ac1016abf7fb734 = L.popup({"maxWidth": 2650});
+
+        
+            var html_9bc836b52acc4bc8bd026c81a810d46d = $(`<div id="html_9bc836b52acc4bc8bd026c81a810d46d" style="width: 100.0%; height: 100.0%;"><b>The BEER STOP pod Petřínem</b><br>                     Vítězná 14, Praha 1<br>                     Praha 1<br>                     <a href="https://www.facebook.com/TheBeerStopPodPetrinem/">https://www.facebook.com/TheBeerStopPodPetrinem/</a> </div>`)[0];
+            popup_0a47c2cf981649239ac1016abf7fb734.setContent(html_9bc836b52acc4bc8bd026c81a810d46d);
+        
+
+        marker_b057f3464286403f968987c250d6808c.bindPopup(popup_0a47c2cf981649239ac1016abf7fb734)
+        ;
+
+        
+    
+    
+            marker_b057f3464286403f968987c250d6808c.bindTooltip(
+                `<div>
+                     <b>The BEER STOP pod Petřínem</b> <br />                Vítězná 14, Praha 1<br />                Praha 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3cb5c120c344aeca959ca8406ef7e28 = L.marker(
+                [49.9726108, 14.3933386],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_f88e9264b38d44b59b87fbb19cb5dc6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c3cb5c120c344aeca959ca8406ef7e28.setIcon(icon_f88e9264b38d44b59b87fbb19cb5dc6b);
+        
+    
+        var popup_51f98abccbd4481b87037e68ae7ef4be = L.popup({"maxWidth": 2650});
+
+        
+            var html_5784db66592747cea6a645a7f5893c61 = $(`<div id="html_5784db66592747cea6a645a7f5893c61" style="width: 100.0%; height: 100.0%;"><b>Prodejna piva u Černýcha</b><br>                     Kaškova 659, Praha - Zbraslav<br>                     Praha - Zbraslav<br>                     <a href="https://www.facebook.com/prodejnapivaucernych/">https://www.facebook.com/prodejnapivaucernych/</a> </div>`)[0];
+            popup_51f98abccbd4481b87037e68ae7ef4be.setContent(html_5784db66592747cea6a645a7f5893c61);
+        
+
+        marker_c3cb5c120c344aeca959ca8406ef7e28.bindPopup(popup_51f98abccbd4481b87037e68ae7ef4be)
+        ;
+
+        
+    
+    
+            marker_c3cb5c120c344aeca959ca8406ef7e28.bindTooltip(
+                `<div>
+                     <b>Prodejna piva u Černýcha</b> <br />                Kaškova 659, Praha - Zbraslav<br />                Praha - Zbraslav
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cb0892cd0be4729b5324403eaab24a4 = L.marker(
+                [49.7456639, 13.3745844],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_729d6cc24f06461085f2be3bf427e17f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8cb0892cd0be4729b5324403eaab24a4.setIcon(icon_729d6cc24f06461085f2be3bf427e17f);
+        
+    
+        var popup_1767b9cb0fdd4853acd2f16279bdfa6f = L.popup({"maxWidth": 2650});
+
+        
+            var html_9fb0e49add7a466fa63ec43ab3532594 = $(`<div id="html_9fb0e49add7a466fa63ec43ab3532594" style="width: 100.0%; height: 100.0%;"><b>Pivotéka Plzeň - Brewhemian Beer Shop</b><br>                     Bezručova 29, Plzeň<br>                     Plzeňský kraj<br>                     <a href="https://www.brewhemian.eu/cs">https://www.brewhemian.eu/cs</a> </div>`)[0];
+            popup_1767b9cb0fdd4853acd2f16279bdfa6f.setContent(html_9fb0e49add7a466fa63ec43ab3532594);
+        
+
+        marker_8cb0892cd0be4729b5324403eaab24a4.bindPopup(popup_1767b9cb0fdd4853acd2f16279bdfa6f)
+        ;
+
+        
+    
+    
+            marker_8cb0892cd0be4729b5324403eaab24a4.bindTooltip(
+                `<div>
+                     <b>Pivotéka Plzeň - Brewhemian Beer Shop</b> <br />                Bezručova 29, Plzeň<br />                Plzeňský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64f9a7149d954373b2c9e6b1a3814a4b = L.marker(
+                [49.5060003, 13.6161106],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_678bee63bcf743ab8d5e0c147c7ad236 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_64f9a7149d954373b2c9e6b1a3814a4b.setIcon(icon_678bee63bcf743ab8d5e0c147c7ad236);
+        
+    
+        var popup_6dd9e6002ea142f7a4c0c71422377b42 = L.popup({"maxWidth": 2650});
+
+        
+            var html_57462cad4b334417ad2ee27a5d30a035 = $(`<div id="html_57462cad4b334417ad2ee27a5d30a035" style="width: 100.0%; height: 100.0%;"><b>Pivní prodejna Pod Zelenou Horou</b><br>                     Vrčeň 104, 335 41 Vršeň<br>                     Plzeňský kraj<br>                     <a href="https://prodejna.pivni.info">https://prodejna.pivni.info</a> </div>`)[0];
+            popup_6dd9e6002ea142f7a4c0c71422377b42.setContent(html_57462cad4b334417ad2ee27a5d30a035);
+        
+
+        marker_64f9a7149d954373b2c9e6b1a3814a4b.bindPopup(popup_6dd9e6002ea142f7a4c0c71422377b42)
+        ;
+
+        
+    
+    
+            marker_64f9a7149d954373b2c9e6b1a3814a4b.bindTooltip(
+                `<div>
+                     <b>Pivní prodejna Pod Zelenou Horou</b> <br />                Vrčeň 104, 335 41 Vršeň<br />                Plzeňský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fac8508a7a6f406aa02a5dd435881499 = L.marker(
+                [49.74831, 13.3790203],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_aa27cbef208c47b7b930ce92971d4aa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fac8508a7a6f406aa02a5dd435881499.setIcon(icon_aa27cbef208c47b7b930ce92971d4aa7);
+        
+    
+        var popup_de37efb9af0d4cc9a49d3519bbc836ff = L.popup({"maxWidth": 2650});
+
+        
+            var html_978d0c3c13eb42cb9bf968c76b652b65 = $(`<div id="html_978d0c3c13eb42cb9bf968c76b652b65" style="width: 100.0%; height: 100.0%;"><b>Restaurace Pivotečka</b><br>                     Rooseveltova 76/4, Plzeň<br>                     Plzeňský kraj<br>                     <a href="https://www.pivotecka.cz">https://www.pivotecka.cz</a> </div>`)[0];
+            popup_de37efb9af0d4cc9a49d3519bbc836ff.setContent(html_978d0c3c13eb42cb9bf968c76b652b65);
+        
+
+        marker_fac8508a7a6f406aa02a5dd435881499.bindPopup(popup_de37efb9af0d4cc9a49d3519bbc836ff)
+        ;
+
+        
+    
+    
+            marker_fac8508a7a6f406aa02a5dd435881499.bindTooltip(
+                `<div>
+                     <b>Restaurace Pivotečka</b> <br />                Rooseveltova 76/4, Plzeň<br />                Plzeňský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9e6eb5946984268bcfd8a210f5d8e2a = L.marker(
+                [49.5659917, 17.2618314],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_47c272e97acf4e5b83fee374781cf276 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f9e6eb5946984268bcfd8a210f5d8e2a.setIcon(icon_47c272e97acf4e5b83fee374781cf276);
+        
+    
+        var popup_c4b88b65c4d848b894886ab44a24f52a = L.popup({"maxWidth": 2650});
+
+        
+            var html_a82731cacef74c0fb60b06b33cdd6193 = $(`<div id="html_a82731cacef74c0fb60b06b33cdd6193" style="width: 100.0%; height: 100.0%;"><b>Pivotéka.cz</b><br>                     Dolní Novosadská 46/48, Olomouc<br>                     Olomoucký kraj<br>                     <a href="https://www.pivoteka.cz">https://www.pivoteka.cz</a> </div>`)[0];
+            popup_c4b88b65c4d848b894886ab44a24f52a.setContent(html_a82731cacef74c0fb60b06b33cdd6193);
+        
+
+        marker_f9e6eb5946984268bcfd8a210f5d8e2a.bindPopup(popup_c4b88b65c4d848b894886ab44a24f52a)
+        ;
+
+        
+    
+    
+            marker_f9e6eb5946984268bcfd8a210f5d8e2a.bindTooltip(
+                `<div>
+                     <b>Pivotéka.cz</b> <br />                Dolní Novosadská 46/48, Olomouc<br />                Olomoucký kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e57c37e11fe54ef29f82cefcb18a9cc2 = L.marker(
+                [49.8292053, 18.1734717],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_1462534d5db6414fb7b9c6a71b5b3d58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e57c37e11fe54ef29f82cefcb18a9cc2.setIcon(icon_1462534d5db6414fb7b9c6a71b5b3d58);
+        
+    
+        var popup_86d1f55e9e024e6fbb08e0f59ba4ae89 = L.popup({"maxWidth": 2650});
+
+        
+            var html_605fe78cfd794bac954b093bece05104 = $(`<div id="html_605fe78cfd794bac954b093bece05104" style="width: 100.0%; height: 100.0%;"><b>Alkotéka Ostrava</b><br>                     Porubská 707/16c, Ostrava - Poruba<br>                     Moravskoslezský kraj<br>                     <a href="http://alkoteka-ostrava.cz">http://alkoteka-ostrava.cz</a> </div>`)[0];
+            popup_86d1f55e9e024e6fbb08e0f59ba4ae89.setContent(html_605fe78cfd794bac954b093bece05104);
+        
+
+        marker_e57c37e11fe54ef29f82cefcb18a9cc2.bindPopup(popup_86d1f55e9e024e6fbb08e0f59ba4ae89)
+        ;
+
+        
+    
+    
+            marker_e57c37e11fe54ef29f82cefcb18a9cc2.bindTooltip(
+                `<div>
+                     <b>Alkotéka Ostrava</b> <br />                Porubská 707/16c, Ostrava - Poruba<br />                Moravskoslezský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14635ea0a3b74dce835e4f733defada7 = L.marker(
+                [49.8390906, 18.2850136],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_50c5d47bffd04f62ab436785bed0b334 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_14635ea0a3b74dce835e4f733defada7.setIcon(icon_50c5d47bffd04f62ab436785bed0b334);
+        
+    
+        var popup_dcf8dc5436a747379c7304001ac5bc08 = L.popup({"maxWidth": 2650});
+
+        
+            var html_9050c34dc9f3477c866ebb3eefb7504e = $(`<div id="html_9050c34dc9f3477c866ebb3eefb7504e" style="width: 100.0%; height: 100.0%;"><b>Pivní Hub Ostrava</b><br>                     Nádražní 716/46, Ostrava<br>                     Moravskoslezský kraj<br>                     <a href="https://www.pivnihub.cz">https://www.pivnihub.cz</a> </div>`)[0];
+            popup_dcf8dc5436a747379c7304001ac5bc08.setContent(html_9050c34dc9f3477c866ebb3eefb7504e);
+        
+
+        marker_14635ea0a3b74dce835e4f733defada7.bindPopup(popup_dcf8dc5436a747379c7304001ac5bc08)
+        ;
+
+        
+    
+    
+            marker_14635ea0a3b74dce835e4f733defada7.bindTooltip(
+                `<div>
+                     <b>Pivní Hub Ostrava</b> <br />                Nádražní 716/46, Ostrava<br />                Moravskoslezský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a900e40140fe41eb9ba65d0ead5d9115 = L.marker(
+                [49.7775281, 18.4342369],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_96228e365b154807ad91a369f283c35b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a900e40140fe41eb9ba65d0ead5d9115.setIcon(icon_96228e365b154807ad91a369f283c35b);
+        
+    
+        var popup_7e540a7031e84fc4b590142c7c524e40 = L.popup({"maxWidth": 2650});
+
+        
+            var html_322a53851aff42e395d15561bdd83bb6 = $(`<div id="html_322a53851aff42e395d15561bdd83bb6" style="width: 100.0%; height: 100.0%;"><b>Alkotéka Havířov</b><br>                     Národní třída 591/14, Havířov<br>                     Moravskoslezský kraj<br>                     <a href="https://www.facebook.com/Alkotéka-Hav%C3%ADřov-1888759508018624/">https://www.facebook.com/Alkotéka-Hav%C3%ADřov-1888759508018624/</a> </div>`)[0];
+            popup_7e540a7031e84fc4b590142c7c524e40.setContent(html_322a53851aff42e395d15561bdd83bb6);
+        
+
+        marker_a900e40140fe41eb9ba65d0ead5d9115.bindPopup(popup_7e540a7031e84fc4b590142c7c524e40)
+        ;
+
+        
+    
+    
+            marker_a900e40140fe41eb9ba65d0ead5d9115.bindTooltip(
+                `<div>
+                     <b>Alkotéka Havířov</b> <br />                Národní třída 591/14, Havířov<br />                Moravskoslezský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b1d9f129c494cdeaa24da9edbb32b81 = L.marker(
+                [49.8363381, 18.2595783],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_80f5ff0f247b472a927238f9c83718ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b1d9f129c494cdeaa24da9edbb32b81.setIcon(icon_80f5ff0f247b472a927238f9c83718ba);
+        
+    
+        var popup_0274c97df53646c7a454a63f809fc57b = L.popup({"maxWidth": 2650});
+
+        
+            var html_b9ec5428e5004525b6d13abc8564db67 = $(`<div id="html_b9ec5428e5004525b6d13abc8564db67" style="width: 100.0%; height: 100.0%;"><b>Pivní bar U Segala</b><br>                     Gen. Hrušky 1233/26, Ostrava - Fifejdy<br>                     Moravskoslezský kraj<br>                     <a href="https://www.usegala.cz">https://www.usegala.cz</a> </div>`)[0];
+            popup_0274c97df53646c7a454a63f809fc57b.setContent(html_b9ec5428e5004525b6d13abc8564db67);
+        
+
+        marker_6b1d9f129c494cdeaa24da9edbb32b81.bindPopup(popup_0274c97df53646c7a454a63f809fc57b)
+        ;
+
+        
+    
+    
+            marker_6b1d9f129c494cdeaa24da9edbb32b81.bindTooltip(
+                `<div>
+                     <b>Pivní bar U Segala</b> <br />                Gen. Hrušky 1233/26, Ostrava - Fifejdy<br />                Moravskoslezský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96bcc11727b24747b32b2b947368572a = L.marker(
+                [48.8795328, 17.2741092],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_f3d3213e1a0c4b78adbbc68d33aca477 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96bcc11727b24747b32b2b947368572a.setIcon(icon_f3d3213e1a0c4b78adbbc68d33aca477);
+        
+    
+        var popup_5e66dcf3b9a14a4398ffd3cd5d86b02b = L.popup({"maxWidth": 2650});
+
+        
+            var html_542e8bffa96e449691b6733a2f0b1d51 = $(`<div id="html_542e8bffa96e449691b6733a2f0b1d51" style="width: 100.0%; height: 100.0%;"><b>Pod ořechem</b><br>                     Petrov č.p. 349, Petrov<br>                     Jihomoravský kraj<br>                     <a href="https://www.pod-orechem.cz">https://www.pod-orechem.cz</a> </div>`)[0];
+            popup_5e66dcf3b9a14a4398ffd3cd5d86b02b.setContent(html_542e8bffa96e449691b6733a2f0b1d51);
+        
+
+        marker_96bcc11727b24747b32b2b947368572a.bindPopup(popup_5e66dcf3b9a14a4398ffd3cd5d86b02b)
+        ;
+
+        
+    
+    
+            marker_96bcc11727b24747b32b2b947368572a.bindTooltip(
+                `<div>
+                     <b>Pod ořechem</b> <br />                Petrov č.p. 349, Petrov<br />                Jihomoravský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a232f7e7a953438696f166bf0224b3f6 = L.marker(
+                [49.2127694, 16.5681103],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_8458e5f19d1d430a954eca5e0c20e36e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a232f7e7a953438696f166bf0224b3f6.setIcon(icon_8458e5f19d1d430a954eca5e0c20e36e);
+        
+    
+        var popup_b6d605671d9b4d40863fce1fd1516b26 = L.popup({"maxWidth": 2650});
+
+        
+            var html_8b148d9838d146779d925625f646bf3d = $(`<div id="html_8b148d9838d146779d925625f646bf3d" style="width: 100.0%; height: 100.0%;"><b>Obchod Svět-piva.cz</b><br>                     Stránského 28, Brno - Žabovřesky<br>                     Jihomoravský kraj<br>                     <a href="https://obchod.svet-piva.cz">https://obchod.svet-piva.cz</a> </div>`)[0];
+            popup_b6d605671d9b4d40863fce1fd1516b26.setContent(html_8b148d9838d146779d925625f646bf3d);
+        
+
+        marker_a232f7e7a953438696f166bf0224b3f6.bindPopup(popup_b6d605671d9b4d40863fce1fd1516b26)
+        ;
+
+        
+    
+    
+            marker_a232f7e7a953438696f166bf0224b3f6.bindTooltip(
+                `<div>
+                     <b>Obchod Svět-piva.cz</b> <br />                Stránského 28, Brno - Žabovřesky<br />                Jihomoravský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67fb1095d4b7485586c624db958bfba5 = L.marker(
+                [49.1892789, 16.6046025],
+                {}
+            ).addTo(marker_cluster_b9d36cca3a404e4c8b4b781026f77552);
+        
+    
+            var icon_8e92ab99adc64b3f830504046236d9d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_67fb1095d4b7485586c624db958bfba5.setIcon(icon_8e92ab99adc64b3f830504046236d9d7);
+        
+    
+        var popup_e26cb3424b3344948b0fac28dbd1ef0d = L.popup({"maxWidth": 2650});
+
+        
+            var html_95458e3f95124061af02d9e4f8f89a9e = $(`<div id="html_95458e3f95124061af02d9e4f8f89a9e" style="width: 100.0%; height: 100.0%;"><b>Pivotéka U Martina</b><br>                     Hybešova 256/18, Brno<br>                     Jihomoravský kraj<br>                     <a href="https://www.facebook.com/PivotekaUMartina/">https://www.facebook.com/PivotekaUMartina/</a> </div>`)[0];
+            popup_e26cb3424b3344948b0fac28dbd1ef0d.setContent(html_95458e3f95124061af02d9e4f8f89a9e);
+        
+
+        marker_67fb1095d4b7485586c624db958bfba5.bindPopup(popup_e26cb3424b3344948b0fac28dbd1ef0d)
+        ;
+
+        
+    
+    
+            marker_67fb1095d4b7485586c624db958bfba5.bindTooltip(
+                `<div>
+                     <b>Pivotéka U Martina</b> <br />                Hybešova 256/18, Brno<br />                Jihomoravský kraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
