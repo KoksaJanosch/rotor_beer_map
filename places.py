@@ -55,6 +55,6 @@ for feature in data['features']:
     folium.Marker(location=[x_geo, y_geo], tooltip=tooltips, popup=popup,
                   icon=folium.Icon(color="green", icon_color="white", icon="glyphicon glyphicon-ok-sign")).add_to(marker_cluster)
 
-mapa.save("map.html")
+mapa.save("index.html")
 
 
