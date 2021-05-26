@@ -41,15 +41,14 @@ for feature in data['features']:
     html = """<b>{nazev}</b><br>
                     {adresa}<br>
                     {kraj}<br>
-                    <a href="{url}">{url}</a> """
+                    <a href="{url}" target="_blank">{url}</a> """
 
     html_complete = html.format(nazev=nazev, adresa=adresa, kraj=kraj, url=url)
     info = folium.Html(html_complete, script=True)
     popup = folium.Popup(info, max_width=2650)
 
-    tooltips = f'''<b>{nazev}</b> <br />\
-                {adresa}<br />\
-                {kraj}'''
+    tooltips = f'''<b>{nazev}</b><br>
+                    <i>více informací</i>  '''
 
     # ? Vytváření bodů
     folium.Marker(location=[x_geo, y_geo], tooltip=tooltips, popup=popup,
