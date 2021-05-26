@@ -1,4 +1,2 @@
 exclude:
-  - _venv
-
-encoding: UTF-8
+  - venv/*
